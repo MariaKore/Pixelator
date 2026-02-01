@@ -1,0 +1,54 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background: #fceef5; /* soft pink */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff8fb1; /* brighter pink */
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #7acfcf; /* mint */
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#pixelCanvas {
+    border: 3px solid #7acfcf; /* mint border */
+    background: white;
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.upload-btn,
+#downloadBtn {
+    background-color: #b8fff1; /* soft mint */
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.upload-btn:hover,
+#downloadBtn:hover {
+    background-color: #ffb3d9; /* soft pink hover */
+}
+
+.slider-container {
+    margin-top: 20px;
+    color: #444;
+}
+
+#pixelSlider {
+    width: 300px;
+    accent-color: #ff8fb1; /* pink slider thumb */
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> Pixelator </h1>
+    <h2> Welcome! Makes your photos pixelated ^_^ </h2>
+
+    <canvas id="pixelCanvas"></canvas>
+
+    <!-- File Upload Button -->
+    <label for="fileUpload" class="upload-btn">Upload Image</label>
+    <input type="file" id="fileUpload" style="display:none;" accept="image/*">
+
+    <!-- Pixelation Slider -->
+    <div class="slider-container">
+        <label for="pixelSlider">Pixelation:</label>
+        <input type="range" id="pixelSlider" min="1" max="50" value="10">
+    </div>
+
+    
+    <!-- Download Button -->
+    <button id="downloadBtn"> Download Result </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
